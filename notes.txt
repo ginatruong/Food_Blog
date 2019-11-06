@@ -1,4 +1,4 @@
-1. Get google font
-2. Get Photos 
+
+
 3. Favicon and ICONS to use
 4. Boostrap
