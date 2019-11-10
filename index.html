@@ -10,10 +10,17 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amiri&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="main.css" />
   </head>
@@ -23,7 +30,6 @@
     <section class="top-header">
       <div class="first-header">
         <ul class="nav-links">
-          <i class="fa fa-camera-retro"></i>
           <a href=""><li nav-direct>Home</li></a>
           <a href=""><li nav-direct>About</li></a>
           <a href=""><li nav-direct>Foods</li></a>
@@ -35,7 +41,51 @@
 
     <!-- Showcase Representing Intro Photo with Signature  -->
     <section class="photo-looping">
-      <img src="" alt="" />
+      <img src="images/Baking.jpeg" alt="Baking Photo" class="food" />
+      <img
+        src="images/Asian_Bowl.jpeg"
+        alt="Asian Bowl Photo"
+        class="food"
+        hidden
+      />
+      <img src="images/Coffee.jpeg" alt="Coffee Photo" class="food" hidden />
+      <img
+        src="images/Fruit_Bowl.jpeg"
+        alt="Fruit_Bowl Photo"
+        class="food"
+        hidden
+      />
+      <img
+        src="images/Healthy_Bowl.jpeg"
+        alt="Healthy_Bowl Photo"
+        class="food"
+        hidden
+      />
+      <img src="Travel_Images/Beach.jpeg" alt="Beach" class="travel" hidden />
+      <img
+        src="Travel_Images/Horseshoe_Bend.jpeg"
+        alt="Horseshoe_Bend"
+        class="travel"
+        hidden
+      />
+      <img
+        src="Travel_Images/Indonesia.jpeg"
+        alt="Indonesia"
+        class="travel"
+        hidden
+      />
+      <img
+        src="Travel_Images/Vietnam.jpeg"
+        alt="Vietnam"
+        class="travel"
+        hidden
+      />
+      <img
+        src="Travel_Images/Waterfall.jpeg"
+        alt="Waterfall"
+        class="travel"
+        hidden
+      />
       <div class="post-looping-1">
         <h3 class="post-intro">Featured Food Posts</h3>
         <h3 class="titled-posts">I am a Photo-Blogger & I love FOODS.</h3>
@@ -59,19 +109,19 @@
     <!-- Section of Food Photos, div container for food, and div container for about section  -->
     <section class="recent-posts">
       <div class="photo-log">
-        <img src="" alt="" />
-        <p class="type">Dessert</p>
+        <img src="images/Asian_Bowl.jpeg" alt="Asian Bowl" />
+        <p class="type">Asian Veggie Bowl</p>
         <p class="date">November 1, 2019</p>
         <a href="#"><button>Read More</button></a>
       </div>
       <div class="photo-log">
-        <img src="" alt="" />
+        <img src="images/Baking.jpeg" alt="Baking Photo" />
         <p class="type">Dessert</p>
-        <p class="date">November 1, 2019</p>
+        <p class="date">November 7, 2019</p>
         <a href="#"><button>Read More</button></a>
       </div>
       <div class="photo-log">
-        <img src="" alt="" />
+        <img src="Travel_Images/Beach.jpeg" alt="Beach Photo" />
         <p class="type">Sydney, Australia</p>
         <p class="date">February 14, 2020</p>
         <a href="#"><button>Read More</button></a>
@@ -79,7 +129,7 @@
 
       <!-- DIV SECTION ABOUT ME -->
       <div class="div about-me">
-        <img src="#" alt="" />
+        <img src="self_images/selfpix.jpg" alt="Self Photo" />
         <p class="about-me-intro">
           Hi! My name is <span>Gina Truong</span>, behind my work life as an
           Analyst, I am a pic-logger. My love for food and traveling, has taken
@@ -152,5 +202,11 @@
     <footer class="copyright">
       Copyright &2019 All right sreserved | Made by gina_Design
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
