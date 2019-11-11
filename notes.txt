@@ -1,4 +1,9 @@
+1.	Stories – PIX-BLOG where navigation is
+2.	Fill in Paragraph for featured POSTS – LOOPING 
+3.	HEADER FOR FEATURED FOOD POSTS / use container
+4.	Food names and dates – use ---- margin line auto, ml and pl, MAKE IT A INLINE BLOCK
+5.	Span class nested in a href , find arrow icons for read more and find magnifying glass for search
+6.	Finish stories to be continued
+7.	Find icons for have a question section
+8.	Brush up on Bootstrap and add in 
 
-
-3. Favicon and ICONS to use
-4. Boostrap
