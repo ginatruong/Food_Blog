@@ -1,4 +1,4 @@
-1.	Stories – PIX-BLOG where navigation is
+1.	Stories – PIX-BLOG where navigation is - DONE
 2.	Fill in Paragraph for featured POSTS – LOOPING 
 3.	HEADER FOR FEATURED FOOD POSTS / use container
 4.	Food names and dates – use ---- margin line auto, ml and pl, MAKE IT A INLINE BLOCK
